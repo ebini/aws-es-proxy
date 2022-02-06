@@ -43,9 +43,9 @@ jobs:
         # Note: tags has to be all lower-case
         tags: |
           ebini/aws-es-proxy:latest
-          ebini/aws-es-proxy:v0.1
+          ebini/aws-es-proxy:v1.2
           ghcr.io/ebini/aws-es-proxy:latest
-          ghcr.io/ebini/aws-es-proxy:v0.1
+          ghcr.io/ebini/aws-es-proxy:v1.2
         # build on feature branches, push only on master branch
         push: ${{ github.ref == 'refs/heads/master' }}
         # push: true
